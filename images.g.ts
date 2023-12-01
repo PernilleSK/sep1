@@ -117,25 +117,6 @@ e e e e e e e e e e e e e e e e
 . . . . . f f f f f f . . . . . 
 . e e . . . f f f f . . . e . . 
 `;
-            case "image7":
-            case "pizzabakke":return img`
-e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
-e e 7 7 e e e e e e e e e e e e 
-e e 7 7 e e 7 7 e 7 7 e 7 7 e e 
-e e 7 e 7 e e 7 e e 7 e e 7 e e 
-e e 7 e e e 7 e e 7 e e 7 7 e e 
-e e 7 e 7 e 7 7 e 7 7 e 7 7 e e 
-e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
-e e e e e 7 7 7 7 7 7 e e e e e 
-e e e e 7 7 e 7 7 7 e 7 e e e e 
-e e e 7 7 e 7 e 7 7 7 7 7 e e e 
-e e e e 7 7 7 7 7 7 7 7 e e e e 
-e e e e e e 7 7 e 7 e e e e e e 
-e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
-`;
             case "image8":
             case "chipsPose":return img`
 . . . . . . . . . . . . . . . . 
@@ -459,25 +440,6 @@ e e e . e e e . e e e . e e e .
 . . . 2 2 2 2 f f f 2 2 . . . . 
 . . . . 2 2 2 2 2 2 2 . . . . . 
 `;
-            case "image25":
-            case "foliebakke":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . b b b b . . . . . 
-. . . . . . b b b b b b . . . . 
-. . . . . b b b b b b b b b . . 
-. . . . b b b b b b b b b b b . 
-. . . b b b b b b b b b b b b b 
-. . b b b b b b b b b b b b b b 
-. b b b b b b b b b b b b b b c 
-b b b b b b b b b b b b b b c . 
-b b b b b b b b b b b b b c . . 
-b b b b b b b b b b b b c . . . 
-b b b b b b b b b b b c . . . . 
-b b b b b b b b b b c . . . . . 
-c b b b b b b b c c . . . . . . 
-. c b b b b b c . . . . . . . . 
-. . c c b b c . . . . . . . . . 
-`;
             case "image26":
             case "metallaag":return img`
 . . . . . . . . . . . . . . . . 
@@ -496,6 +458,44 @@ c b b b b b b b c c . . . . . .
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
+`;
+            case "image7":
+            case "pizzabakke":return img`
+. . . . . . . . . . . . . . . . 
+. e e e e e e e e e e e e e e . 
+. e 7 7 e e e e e e e e e e e . 
+. e 7 7 e e 7 7 e 7 7 e 7 7 e . 
+. e 7 e 7 e e 7 e e 7 e e 7 e . 
+. e 7 e e e 7 e e 7 e e 7 7 e . 
+. e 7 e 7 e 7 7 e 7 7 e 7 7 e . 
+. e e e e e e e e e e e e e e . 
+. e e e e e e e e e e e e e e . 
+. e e e e 7 7 7 7 7 7 e e e e . 
+. e e e 7 7 e 7 7 7 e 7 e e e . 
+. e e 7 7 e 7 e 7 7 7 7 7 e e . 
+. e e e 7 7 7 7 7 7 7 7 e e e . 
+. e e e e e 7 7 e 7 e e e e e . 
+. e e e e e e e e e e e e e e . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image25":
+            case "foliebakke":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . d d d d . . . . . 
+. . . . . . d d d d d d . . . . 
+. . . . . d d d d d d d d d . . 
+. . . . d d d d d d d d d d d . 
+. . . d d d d d d d d d d d d d 
+. . d d d d d d d d d d d d d d 
+. d d d d d d d d d d d d d d c 
+d d d d d d d d d d d d d d c . 
+d d d d d d d d d d d d d c . . 
+d d d d d d d d d d d d c . . . 
+d d d d d d d d d d d c . . . . 
+d d d d d d d d d d c . . . . . 
+c d d d d d d d c c . . . . . . 
+. c d d d d d c . . . . . . . . 
+. . c c d d c . . . . . . . . . 
 `;
         }
         return null;
