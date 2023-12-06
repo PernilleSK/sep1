@@ -37,18 +37,16 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.trash, function (sprite, otherSp
         for (let value of madAffald) {
             if (otherSprite == aebleskrog) {
                 game.splash("Du har fat i et æbleskrog, find ud af hvor det hører til!")
-            }
-            if (otherSprite == aeggeSkal) {
+            } else if (otherSprite == aeggeSkal) {
                 game.splash("Du har fat i æggeskaller, find ud af hvor det hører til!")
-            }
-            if (otherSprite == koekkenrulle) {
+            } else if (otherSprite == koekkenrulle) {
                 game.splash("Du har fat i køkkenrulle, find ud af hvor det hører til!")
-            }
-            if (otherSprite == kaffeFilter) {
+            } else if (otherSprite == kaffeFilter) {
                 game.splash("Du har fat i et kaffefilter, find ud af hvor det hører til!")
-            }
-            if (otherSprite == doadPlante) {
+            } else if (otherSprite == doadPlante) {
                 game.splash("Du har fat i en død plante, find ud af hvor det hører til!")
+            } else {
+            	
             }
         }
         for (let value of restAffald) {
